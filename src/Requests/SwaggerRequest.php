@@ -32,7 +32,7 @@ class SwaggerRequest implements RequestInterface {
 	 * @return string HTTP protocol version.
 	 */
 	public function getProtocolVersion(){
-		return 1.1;
+		return "1.1";
 	}
 
 	/**
