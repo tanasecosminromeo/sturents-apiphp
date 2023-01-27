@@ -45,6 +45,10 @@ abstract class SturentsClient implements SwaggerClient {
 		$this->landlord_id = $landlord_id;
 	}
 
+	public function getLandlordId(): string{
+		return $this->landlord_id;
+	}
+
 	/**
 	 * @return ClientInterface
 	 */
