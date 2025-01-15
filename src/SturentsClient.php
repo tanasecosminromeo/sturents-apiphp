@@ -206,4 +206,11 @@ abstract class SturentsClient implements SwaggerClient {
 	public function getDebugRequestException(): GuzzleException{
 		return $this->debug_request_exception;
 	}
+
+
+
+    	public function getLandlordId(): string
+    	{
+        	return $this->landlord_id;
+    	}
 }
